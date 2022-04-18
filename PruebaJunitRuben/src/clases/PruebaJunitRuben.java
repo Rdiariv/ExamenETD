@@ -17,5 +17,15 @@ class PruebaJunitRuben {
 		
 		
 	}
+	
+	
+	@Test
+	void valorabsolutotest()
+	{
+		double esperado=6.7;
+		double actual=Matematicas.absoluto(-6.7);
+		
+		assertEquals(esperado, actual);
+	}
 
 }
